@@ -97,8 +97,6 @@ def main(s: str, e: str) -> Tuple[float, float]:
     hn = (H / href) if href > 0 else 0.0
     return round(H, 1), round(hn, 1)
 
-def task(s: str, e: str) -> Tuple[float, float]:
-    return main(s, e)
 
 if __name__ == '__main__':
     csv_text = "1,2\n1,3\n2,4\n2,5"
